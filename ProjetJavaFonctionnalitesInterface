@@ -1,0 +1,20 @@
+Projet Java
+
+Fonctionnalités:
+
+Interface Accueil:
+Bouton Personnel : Ouvre une fenetre ou on peut soit ajouter soit modifier soit lister le personnel.
+Bouton Competence : Ouvre une fenetre ou on peut soit ajouter soit modifier soit lister le Competence.
+Bouton Missions : Ouvre une fenetre ou on peut voir 5 boutons: MissionEnPreparation, MissionEnCours,MissionEnPlanification,MissionTermionée et MissionPlanifiee.
+
+Interface Competences : 
+Bouton Ajouter : Ouvre une fenetre ou on peut ajouter une competence en donnant un nom, un code et la description de la competence.
+Bouton Modifier : Ouvre une fenetre ou on peut modifier une competence en choisissant une competence à partir d'une liste deroulante puis modifier le nom, l'identifiant et la description
+Bouton Liste : Ouvre une fenetre qui liste toutes les competences existantes dans l'entreprise.
+
+Interface Personnel :
+Bouton Ajouter : Ouvre une fenetre ou on peut ajouter une personne en donnant un nom,un prenom, un identifiant, les competences et la date d'entrée dans l'entreprise.
+Bouton Modifier : Ouvre une fenetre ou on peut modifier une personne en donnant un nom,un prenom, un identifiant, les competences (ou supprimer).
+Bouton Liste : Ouvre une fenetre qui liste toutes le personnel de l'entreprise.
+
+Interface Missions :
