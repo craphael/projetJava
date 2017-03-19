@@ -19,16 +19,16 @@ public class Main {
 		
 		// Récupérer tout le personnel dans une collection (identifiant, date d'arrivée dans l'entreprise, nom et prénom)
 	     HashMap<String,Personnel> tabPP = f.recupererPersonnel();
-	     for(int j = 1; j<tabPP.size();j++){
+	     for(int j = 1; j<tabPP.size()+1;j++){
 	    	 System.out.println(tabPP.get(""+j).toString());
 	     }
 	     
 
 	     // Récupérer toutes les compétences dans une collection (identifiant et libellé)
-	     /*HashMap<String,Competence> tabC = f.recupererCompetence();
+	     HashMap<String,Competence> tabC = f.recupererCompetence();
 	     for(int j = 0; j<tabC.size();j++){
-	    	 System.out.println(tabC.get(""+j).toString());
-	     }*/
+	    	 System.out.println(tabC.get("B.1.").toString());
+	     }
 	     
 	    
 	     

@@ -9,6 +9,22 @@ public class Competence {
 		this.libelle=libelle;
 	}
 	
+	public String getLibelle() {
+		return libelle;
+	}
+
+	public void setLibelle(String libelle) {
+		this.libelle = libelle;
+	}
+	
+	public String getId(){
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+	
 	public String toString(){
 		String str = "id : "+this.id+" -- ";
 		str += "libelle : "+this.libelle;
