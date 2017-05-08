@@ -1,0 +1,10 @@
+<body ng-app="MonModule">
+  scope 1
+   <div ng-controller="MonControleur">
+<p>Bonjour <input type="text" ng-model="nom"/>, </p> <button ng-click="hello()">dis bonjour !</button> <p>Vous avez indiqué : {{nomsaisi}}
+<br/>Nb car : {{nomsaisi.length}}
+<span ng-if="nomsaisi === 'Zorro'">Yeah !</span> </p>
+</div> <div>
+          <p>Nom saisi (autre scope) : {{nomsaisi}}</p>
+scope 2
+    </div> </body>
